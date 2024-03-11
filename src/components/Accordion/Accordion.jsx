@@ -18,8 +18,8 @@ const Accordion = () => {
     setMultiple(newArray);
   };
   return (
-    <div className="relative flex h-max min-h-screen flex-col items-center gap-4 pt-12">
-      <h1 className="absolute left-8 top-4 text-lg font-semibold">
+    <div className="relative flex h-max min-h-screen flex-col items-center gap-4 border border-b-gray-300 pt-24">
+      <h1 className="absolute left-8 top-6 text-lg font-semibold">
         1. Accordion
       </h1>
       {data && data.length > 0 ? (
@@ -32,14 +32,14 @@ const Accordion = () => {
           </button>
           <div className="text-sm">
             {data.map((item) => (
-              <div key={item.id} className="mb-4">
+              <div key={item.id} className="mb-4 w-[600px] max-sm:w-[300px]">
                 <div
                   onClick={
                     enableMulti
                       ? () => handleMultiple(item.id)
                       : () => handleSingle(item.id)
                   }
-                  className="mb-1 flex w-[600px] cursor-pointer items-center justify-between rounded-md border bg-gray-100 p-4 hover:bg-gray-200"
+                  className="mb-1 flex w-full cursor-pointer items-center justify-between rounded-md border bg-gray-100 p-4 hover:bg-gray-200"
                 >
                   {item.question}
                   {enableMulti ? (
@@ -55,11 +55,11 @@ const Accordion = () => {
                   )}
                 </div>
                 {enableMulti && multiple.indexOf(item.id) !== -1 ? (
-                  <div className="w-[600px] rounded-md border bg-gray-100 p-4">
+                  <div className="w-full rounded-md border bg-gray-100 p-4">
                     {item.answer}
                   </div>
                 ) : single === item.id ? (
-                  <div className="w-[600px] rounded-md border bg-gray-100 p-4">
+                  <div className="w-full rounded-md border bg-gray-100 p-4">
                     {item.answer}
                   </div>
                 ) : null}
