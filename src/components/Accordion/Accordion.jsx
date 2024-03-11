@@ -17,6 +17,11 @@ const Accordion = () => {
     else newArray.splice(index, 1);
     setMultiple(newArray);
   };
+  const handleBtn = () => {
+    setEnableMulti(!enableMulti);
+    setSingle(null);
+    setMultiple([]);
+  };
   return (
     <div className="relative flex h-max min-h-screen flex-col items-center gap-4 border border-b-gray-300 pt-24">
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
@@ -25,7 +30,7 @@ const Accordion = () => {
       {data && data.length > 0 ? (
         <>
           <button
-            onClick={() => setEnableMulti(!enableMulti)}
+            onClick={handleBtn}
             className="rounded-md bg-blue-600 px-4 py-2 text-xs text-white transition-shadow hover:bg-blue-700 hover:shadow-lg"
           >
             {enableMulti ? "Disable Multi-Selection" : "Enable Multi-Selection"}

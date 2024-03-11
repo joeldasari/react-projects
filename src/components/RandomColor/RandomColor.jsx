@@ -25,7 +25,7 @@ const RandomColor = () => {
     }
   };
   return (
-    <div className="relative h-max min-h-screen border border-b-gray-300">
+    <div className="relative min-h-screen border border-b-gray-300">
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         2. Random Color Generator
       </h1>
