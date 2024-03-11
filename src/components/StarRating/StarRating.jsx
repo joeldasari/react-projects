@@ -6,7 +6,7 @@ const StarRating = ({ count = 5 }) => {
   const [rating, setRating] = useState(0);
 
   return (
-    <div className="relative flex min-h-screen flex-col items-center gap-12 pt-24 max-sm:gap-8">
+    <div className="relative flex min-h-screen flex-col items-center gap-12 border border-b-gray-300 pt-24 max-sm:gap-8">
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         3. Star Rating
       </h1>
@@ -16,7 +16,7 @@ const StarRating = ({ count = 5 }) => {
           return (
             <FaStar
               key={index}
-              className={`cursor-pointer text-4xl max-sm:text-2xl ${index <= rating ? "text-orange-300" : ""}`}
+              className={`cursor-pointer text-4xl max-sm:text-2xl ${index <= rating ? "text-orange-300" : "text-gray-300"}`}
               onClick={() => setRating(index)}
             />
           );
