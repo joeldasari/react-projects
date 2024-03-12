@@ -7,6 +7,7 @@ const ImageSlider = ({ url, page, limit }) => {
   const [currentImg, setCurrentImg] = useState(0);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
   const fetchImages = async () => {
     try {
       setLoading(true);
@@ -65,7 +66,7 @@ const ImageSlider = ({ url, page, limit }) => {
               <button
                 onClick={() => setCurrentImg(index)}
                 key={index}
-                className={`h-3 w-3 rounded-full max-sm:h-2 max-sm:w-2 ${index === currentImg ? "bg-black" : "bg-gray-300"}`}
+                className={`h-3 w-3 rounded-full max-sm:h-2 max-sm:w-2 ${index === currentImg ? "bg-white" : "bg-gray-500"}`}
               ></button>
             ))}
           </div>
