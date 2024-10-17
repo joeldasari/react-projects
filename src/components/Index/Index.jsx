@@ -7,7 +7,7 @@ const Index = () => {
     <div className="flex h-max min-h-[100vh] flex-col items-center justify-center gap-8 py-8">
       <h1 className="mainText">10+ React Machine Coding Interview Projects</h1>
       <div className="flex gap-8 max-md:flex-col max-md:gap-4">
-        <div className="flex w-[350px] flex-col gap-4">
+        <div className="flex w-[350px] flex-col gap-4 max-sm:w-[300px]">
           <button className="linkToComponent" onClick={() => ScrollTo("1")}>
             1. Accordion
           </button>
