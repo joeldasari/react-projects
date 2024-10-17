@@ -12,5 +12,5 @@ body {
 }
 
 .mainText {
-  @apply bg-gradient-to-b from-gray-700 to-gray-500 bg-clip-text p-2 text-center text-5xl font-semibold text-transparent max-md:text-4xl max-sm:text-3xl;
+  @apply w-[80vw] bg-gradient-to-b from-gray-700 to-gray-500 bg-clip-text p-2 text-center text-5xl font-semibold text-transparent max-md:text-4xl max-sm:text-3xl;
 }

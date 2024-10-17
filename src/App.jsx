@@ -13,7 +13,7 @@ import Stepper from "./components/Stepper/Stepper";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Index />
       <ScrollToTop />
       <Accordion />
