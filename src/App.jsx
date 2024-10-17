@@ -25,7 +25,6 @@ const App = () => {
         limit={100}
         skip={0}
       />
-      {/* <SideMenu /> */}
       <ProgressBar />
       <Quiz />
       <Stepper />

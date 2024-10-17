@@ -2,28 +2,28 @@ import { useEffect, useState } from "react";
 import { FaChevronCircleLeft } from "react-icons/fa";
 import { FaChevronCircleRight } from "react-icons/fa";
 import Loader from "./Loader";
+// eslint-disable-next-line react/prop-types
 const ImageSlider = ({ url, page, limit }) => {
   const [images, setImages] = useState([]);
   const [currentImg, setCurrentImg] = useState(0);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const fetchImages = async () => {
-    try {
-      setLoading(true);
-      const result = await fetch(`${url}?page=${page}&limit=${limit}`);
-      const jsonData = await result.json();
-      setImages(jsonData);
-      setLoading(false);
-    } catch (error) {
-      setLoading(false);
-      setError(error);
-    }
-  };
-
   useEffect(() => {
+    const fetchImages = async () => {
+      try {
+        setLoading(true);
+        const result = await fetch(`${url}?page=${page}&limit=${limit}`);
+        const jsonData = await result.json();
+        setImages(jsonData);
+        setLoading(false);
+      } catch (error) {
+        setLoading(false);
+        setError(error);
+      }
+    };
     fetchImages();
-  }, []);
+  }, [limit, page, url]);
 
   const handleLeft = () => {
     setCurrentImg(currentImg === 0 ? images.length - 1 : currentImg - 1);
