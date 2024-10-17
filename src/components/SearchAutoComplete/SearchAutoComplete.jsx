@@ -36,8 +36,9 @@ const SearchAutoComplete = () => {
     <div
       id="10"
       onClick={() => setFilteredUsers([])}
-      className="relative flex h-max min-h-screen justify-center border border-b-gray-300 py-24"
+      className="relative flex h-max min-h-screen flex-col items-center gap-4 border border-b-gray-300 py-24"
     >
+      <p className="text-sm font-medium">Note: Only use Lowercase</p>
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         10. Search Auto Complete
       </h1>
