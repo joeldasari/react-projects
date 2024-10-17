@@ -5,9 +5,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  scrollbar-base-color: lightgray;
-  scrollbar-width: 10px;
-  scrollbar-track-color: red;
 }
 
 .linkToComponent {
