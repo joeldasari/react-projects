@@ -52,7 +52,7 @@ const RandomColor = () => {
         </button>
         <div
           style={{ backgroundColor: color }}
-          className="h-[300px] w-[600px] rounded-md max-sm:h-[150px] max-sm:w-[300px]"
+          className="h-[300px] w-[600px] rounded-md transition-colors duration-300 ease-in-out max-sm:h-[150px] max-sm:w-[300px]"
         ></div>
         <h1 className="font-semibold">{color}</h1>
       </div>

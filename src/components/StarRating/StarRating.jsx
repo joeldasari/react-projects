@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
-import { FaStar } from "react-icons/fa";
+import { RxStarFilled } from "react-icons/rx";
 import { GrPowerReset } from "react-icons/gr";
 
 const StarRating = ({ count = 5 }) => {
@@ -14,9 +15,9 @@ const StarRating = ({ count = 5 }) => {
         {[...Array(count)].map((_, index) => {
           index = index + 1;
           return (
-            <FaStar
+            <RxStarFilled
               key={index}
-              className={`cursor-pointer text-4xl max-sm:text-2xl ${index <= rating ? "text-orange-300" : "text-gray-300"}`}
+              className={`cursor-pointer text-5xl max-sm:text-2xl ${index <= rating ? "text-orange-300" : "text-gray-300"}`}
               onClick={() => setRating(index)}
             />
           );

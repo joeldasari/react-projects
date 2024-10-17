@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "options": [
+      { "option": "London", "isCorrect": false },
+      { "option": "Berlin", "isCorrect": false },
+      { "option": "Paris", "isCorrect": true },
+      { "option": "Rome", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is the highest mountain in the world?",
+    "options": [
+      { "option": "Mount Everest", "isCorrect": true },
+      { "option": "K2", "isCorrect": false },
+      { "option": "Kangchenjunga", "isCorrect": false },
+      { "option": "Lhotse", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "In which year did World War II begin?",
+    "options": [
+      { "option": "1914", "isCorrect": false },
+      { "option": "1945", "isCorrect": false },
+      { "option": "1930", "isCorrect": false },
+      { "option": "1939", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is the chemical symbol for water?",
+    "options": [
+      { "option": "CO2", "isCorrect": false },
+      { "option": "H2O", "isCorrect": true },
+      { "option": "NaCl", "isCorrect": false },
+      { "option": "NH3", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "How many planets are in our solar system?",
+    "options": [
+      { "option": "9", "isCorrect": false },
+      { "option": "7", "isCorrect": false },
+      { "option": "10", "isCorrect": false },
+      { "option": "8", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      { "option": "Leonardo da Vinci", "isCorrect": true },
+      { "option": "Michelangelo", "isCorrect": false },
+      { "option": "Vincent van Gogh", "isCorrect": false },
+      { "option": "Claude Monet", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is the largest ocean on Earth?",
+    "options": [
+      { "option": "Atlantic Ocean", "isCorrect": false },
+      { "option": "Indian Ocean", "isCorrect": false },
+      { "option": "Pacific Ocean", "isCorrect": true },
+      { "option": "Arctic Ocean", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the currency of Japan?",
+    "options": [
+      { "option": "Chinese Yuan", "isCorrect": false },
+      { "option": "Japanese Yen", "isCorrect": true },
+      { "option": "US Dollar", "isCorrect": false },
+      { "option": "Euro", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is the capital of India?",
+    "options": [
+      { "option": "Mumbai", "isCorrect": false },
+      { "option": "Chennai", "isCorrect": false },
+      { "option": "Kolkata", "isCorrect": false },
+      { "option": "New Delhi", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Who wrote the Harry Potter series?",
+    "options": [
+      { "option": "J.K. Rowling", "isCorrect": true },
+      { "option": "Stephen King", "isCorrect": false },
+      { "option": "C.S. Lewis", "isCorrect": false },
+      { "option": "J.R.R. Tolkien", "isCorrect": false }
+    ]
+  }
+]
