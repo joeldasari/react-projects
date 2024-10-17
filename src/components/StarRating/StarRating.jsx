@@ -7,7 +7,10 @@ const StarRating = ({ count = 5 }) => {
   const [rating, setRating] = useState(0);
 
   return (
-    <div className="relative flex min-h-screen flex-col items-center gap-12 border border-b-gray-300 pt-24 max-sm:gap-8">
+    <div
+      id="3"
+      className="relative flex min-h-screen flex-col items-center gap-12 border border-b-gray-300 pt-24 max-sm:gap-8"
+    >
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         3. Star Rating
       </h1>

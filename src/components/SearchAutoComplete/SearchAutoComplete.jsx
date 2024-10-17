@@ -34,6 +34,7 @@ const SearchAutoComplete = () => {
 
   return (
     <div
+      id="10"
       onClick={() => setFilteredUsers([])}
       className="relative flex h-max min-h-screen justify-center border border-b-gray-300 py-24"
     >

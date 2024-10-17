@@ -34,7 +34,10 @@ const ImageSlider = ({ url, page, limit }) => {
   };
 
   return (
-    <div className="relative flex min-h-screen justify-center border border-b-gray-300 pt-24">
+    <div
+      id="4"
+      className="relative flex min-h-screen justify-center border border-b-gray-300 pt-24"
+    >
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         4. Image Slider
       </h1>

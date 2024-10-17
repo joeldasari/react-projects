@@ -1,18 +1,21 @@
 import Accordion from "./components/Accordion/Accordion";
 import GithubProfileFinder from "./components/GithubProfileFinder/GithubProfileFinder";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
+import Index from "./components/Index/Index";
 import LoadMore from "./components/LoadMore/LoadMore";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
 import Quiz from "./components/Quiz/Quiz";
 import RandomColor from "./components/RandomColor/RandomColor";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import SearchAutoComplete from "./components/SearchAutoComplete/SearchAutoComplete";
-// import SideMenu from "./components/SideMenu/SideMenu";
 import StarRating from "./components/StarRating/StarRating";
 import Stepper from "./components/Stepper/Stepper";
 
 const App = () => {
   return (
     <div>
+      <Index />
+      <ScrollToTop />
       <Accordion />
       <RandomColor />
       <StarRating count={10} />

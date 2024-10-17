@@ -22,7 +22,10 @@ const LoadMore = ({ url, limit, skip }) => {
     fetchProducts();
   }, []);
   return (
-    <div className="relative flex h-max min-h-screen items-center justify-center border border-b-gray-300">
+    <div
+      id="5"
+      className="relative flex h-max min-h-screen items-center justify-center border border-b-gray-300"
+    >
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         5. Load More Items
       </h1>

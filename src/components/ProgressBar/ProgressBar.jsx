@@ -15,7 +15,10 @@ const ProgressBar = () => {
   }, [count]);
 
   return (
-    <div className="relative flex h-max min-h-screen flex-col items-center border border-b-gray-300 py-24">
+    <div
+      id="6"
+      className="relative flex h-max min-h-screen flex-col items-center border border-b-gray-300 py-24"
+    >
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         6. Progress Bar
       </h1>

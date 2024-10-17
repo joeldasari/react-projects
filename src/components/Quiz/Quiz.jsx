@@ -15,7 +15,10 @@ const Quiz = () => {
     setUserAnswers([]);
   };
   return (
-    <div className="relative flex h-max min-h-screen justify-center border border-b-gray-300 py-24">
+    <div
+      id="7"
+      className="relative flex h-max min-h-screen justify-center border border-b-gray-300 py-24"
+    >
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         7. Basic Quiz App
       </h1>

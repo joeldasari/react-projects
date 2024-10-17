@@ -22,7 +22,10 @@ const Stepper = () => {
     setCurrentStep(1);
   };
   return (
-    <div className="relative flex h-max min-h-screen flex-col items-center gap-8 border border-b-gray-300 py-24">
+    <div
+      id="8"
+      className="relative flex h-max min-h-screen flex-col items-center gap-8 border border-b-gray-300 py-24"
+    >
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         8. Stepper Component
       </h1>

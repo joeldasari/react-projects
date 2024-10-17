@@ -23,7 +23,10 @@ const Accordion = () => {
     setMultiple([]);
   };
   return (
-    <div className="relative flex h-max min-h-screen flex-col items-center gap-4 border border-b-gray-300 py-24">
+    <div
+      id="1"
+      className="relative flex h-max min-h-screen flex-col items-center gap-4 border border-b-gray-300 py-24"
+    >
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         1. Accordion
       </h1>

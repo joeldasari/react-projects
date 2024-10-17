@@ -37,7 +37,10 @@ const GithubProfileFinder = () => {
     fetchUser();
   };
   return (
-    <div className="relative flex h-max min-h-screen flex-col items-center gap-12 py-24">
+    <div
+      id="9"
+      className="relative flex h-max min-h-screen flex-col items-center gap-12 py-24"
+    >
       <h1 className="absolute left-8 top-6 text-lg font-semibold">
         9. Github Profile Finder
       </h1>

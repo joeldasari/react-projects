@@ -5,4 +5,15 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  scrollbar-base-color: lightgray;
+  scrollbar-width: 10px;
+  scrollbar-track-color: red;
+}
+
+.linkToComponent {
+  @apply w-full cursor-pointer rounded-md border bg-gray-100 p-4 shadow-sm hover:bg-gray-200;
+}
+
+.mainText {
+  @apply bg-gradient-to-b from-gray-700 to-gray-500 bg-clip-text p-2 text-center text-5xl font-semibold text-transparent max-md:text-4xl max-sm:text-3xl;
 }
